@@ -105,8 +105,45 @@ let myObject = {
     }
 }
 // calling object
-console.log(myObject.siblings[0]);
-myObject.gretting();
+// console.log(myObject.siblings[0]);
+// myObject.gretting();
 // changing values in an Object
 myObject.name = "Nina"
-console.log(myObject.name)
+//console.log(myObject.name)
+
+// car object
+const car = {
+    make: "Ford",
+    model: "mustang",
+    year: 2007,
+    color: "red",
+    hybrid: false,
+    drive: function () {
+        console.log("car is driving!");
+    },
+    stop: function () {
+        console.log("car has stopped!");
+    },
+};
+
+// calling our car object below!
+// console.log(car.make, car.model, car.drive());
+
+// condition statements!
+if (2 < 1) {
+    console.log("hello hector!");
+} else {
+    console.log("false!");
+}
+
+// more conditional statements!
+const num1 = 6;
+const num2 = 6;
+
+if (num1 > num2) {
+    console.log("first number is bigger")
+} else if (num1 == num2) {
+    console.log("both number equal each other");
+} else {
+    console.log("second number is bigger!")
+}
