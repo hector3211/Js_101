@@ -107,6 +107,9 @@ console.log(allNames);
 const specificNames = allNames.splice(0,1);
 console.log(specificNames);
 
-// ternary operator --------------------------------------------------------------------
+// ternary operator (short version of if,else FOR true and fasle) ----------------------
 const value_ = 1>0;
 value_ ? console.log("values is true") : console.log("value is false");
+
+//  --------------------------------------------------------------------------------------
+
